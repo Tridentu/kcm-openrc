@@ -1,0 +1,23 @@
+
+[Domain]
+Name=Tridentu-RK
+Icon=system-run
+URL=https://tridentu.github.io
+
+[tridentu.auth.openrc.service.removeservice]
+Name=Remove OpenRC Service(s)
+Description=The system is attempting to remove an OpenRC service.
+Policy=auth_admin
+Persistence=session
+
+[tridentu.auth.openrc.service.stopservice]
+Name=Stop OpenRC Service(s)
+Description=The system is attempting to stop an OpenRC service.
+Policy=auth_admin
+Persistence=session
+
+[tridentu.auth.openrc.service.restartservice]
+Name=Restart OpenRC Service(s)
+Description=The system is attempting to restart an OpenRC service.
+Policy=auth_admin
+Persistence=session

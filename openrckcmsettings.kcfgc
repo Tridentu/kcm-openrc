@@ -1,0 +1,6 @@
+File=openrckcmsettings.kcfg
+ClassName=OpenRCKCMSettings
+GenerateProperties=true
+ParentInConstructor=true
+Mutators=true
+

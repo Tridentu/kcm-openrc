@@ -1,0 +1,17 @@
+ {
+    "KPlugin": {
+        "Description": "Configure OpenRC",
+        "FormFactors": [
+            "desktop",
+            "mediacenter"
+        ],
+        "Icon": "system-restart",
+        "Id": "kcm_openrc",
+        "Name": "OpenRC",
+        "ServiceTypes": [
+            "KCModule"
+        ]
+    },
+    "X-KDE-Keywords": "OpenRC",
+    "X-KDE-System-Settings-Parent-Category" : "system-administration"
+ }
